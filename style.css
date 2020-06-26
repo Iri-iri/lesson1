@@ -1,0 +1,57 @@
+/* General setup */
+* {
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+h1, h2 {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1.2em;
+  letter-spacing: 4px
+}
+.info, .my-avatar, section {
+  padding: 20px;
+}
+
+
+body {
+  margin: 0 auto;
+  min-width: auto;
+  max-width: 1400px;
+  line-height: 2;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+}
+
+a {
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color:blueviolet;
+}
+
+a:visited{
+  color:green;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+ 
+a:hover {
+  outline: none;
+  text-decoration: none;
+}
+
+a:active {
+  background: yellow;
+  color: blue;
+}
+
+ul {
+  line-height: 2;
+  list-style-type: square;
+}
